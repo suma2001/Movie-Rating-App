@@ -1,0 +1,39 @@
+.App {
+  background-color: rgb(0, 0, 0);
+}
+
+.App .page {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.moviecard {
+  margin: 20px;
+  border: 2px solid black;
+  /*-moz-box-shadow: 0 0 25px magenta;
+  -webkit-box-shadow: 0 0 25px magenta;*/
+  box-shadow: 0 4px 8px 0px cyan;
+  border-radius: 15px;
+  text-decoration: none;
+
+}
+
+.moviecard:hover{
+  box-shadow:  0px 8px 15px 0px  white;
+}
+
+.moviecard .title {
+  text-align: center;
+  font-style: oblique; 
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+

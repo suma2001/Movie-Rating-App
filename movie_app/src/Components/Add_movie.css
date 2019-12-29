@@ -1,0 +1,63 @@
+.form {
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/0/8/841092-free-download-dark-sky-background-1920x1080.jpg');
+    background-size: cover;
+}
+.head{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header {
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+
+input{
+    font-family: candara;
+    color:black;
+    width:60%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 2px solid #86ddf8;
+    border-radius: 4px;
+    margin-left: 60px;
+}
+
+.button {
+    margin-left: 35%; 
+    margin-top: 3%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: hotpink;
+}
+
+.search {
+    position: relative;
+    padding-left: 200px;
+}
+.search input {
+    text-indent: 50px;
+}
+
+.search .fa-calendar-alt {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 25px;
+    color: black;
+    padding-left: 200px;
+}
+
+.search .fa-star {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    font-size: 25px;
+    color: black;
+    padding-left: 200px;
+}
